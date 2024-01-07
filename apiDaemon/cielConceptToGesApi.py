@@ -75,6 +75,7 @@ def get_who_concept_details(icd10_who_concept_id):
         raise Exception(f"No se encontró un concepto de la OMS con ID {icd10_who_concept_id}")
 
 
+
 def get_ges_concept_details(ges_concept_id):
     base_url = "https://api.centromedicofundacion.cl"
     concept_url = f"{base_url}/orgs/MINSAL/sources/GES/concepts/{ges_concept_id}/$cascade/?cascadeLevels=1&method=sourceToConcepts&view=hierarchy&includeRetired=false"

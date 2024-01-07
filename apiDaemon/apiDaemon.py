@@ -133,6 +133,7 @@ while True:
     # Obtener todos los resultados de la consulta
     openmrsResult = openmrscursor.fetchall()
 
+
     # Confirmar los cambios en la base de datos
     openmrsdb.commit()
     openmrscursor.close()
