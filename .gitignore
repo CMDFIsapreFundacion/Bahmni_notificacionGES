@@ -4,3 +4,4 @@
 apiDaemon/.env
 apiDaemon/__pycache__/cielConceptToGesApi.cpython-312.pyc
 .DS_Store
+apiDaemon/.env
